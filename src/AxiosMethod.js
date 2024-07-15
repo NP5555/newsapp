@@ -23,8 +23,6 @@ const AxiosPractice = () => {
       {data.map((user) => (
         <div key={user.id}>
           {user.name}
-          <br></br>
-          {user.email}
         </div>
       ))}
     </div>
